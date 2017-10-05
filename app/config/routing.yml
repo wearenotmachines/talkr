@@ -1,0 +1,3 @@
+api_ping:
+    path: /api/ping
+    defaults: { _controller: AppBundle:Check:ping }
